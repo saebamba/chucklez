@@ -1,6 +1,7 @@
 <template>
   <h1> Your Order has been made!
       <br>
+      <br>
 <div align=middle>
      <fingerprint-spinner
   :animation-duration="2000"
