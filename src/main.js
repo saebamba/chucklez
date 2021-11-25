@@ -56,16 +56,6 @@ import { firestorePlugin } from 'vuefire'
 Vue.use(firestorePlugin);
 
 
-router.beforeEach((to, from, next ) => {
-  console.log(to);
-  console.log(from);
-  if (localStorage.currentorderstatus == "1") {
-    router.push('Delivery');
-  } else {
-  next();
-  }
-});
-
 
 Vue.config.productionTip = false;
 

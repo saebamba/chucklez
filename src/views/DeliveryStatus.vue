@@ -57,6 +57,33 @@ export default {
   },
   
 
+beforeMount() {
+    window.addEventListener("beforeunload", this.preventNav)
+  },
+
+  beforeDestroy() {
+    window.removeEventListener("beforeunload", this.preventNav);
+  },
+
+  methods: {
+    
+    preventNav(event) {
+          
+      if (!localStorage.currentorderstatus == "1") return
+      event.preventDefault()
+      event.returnValue = ""
+    }
+  },
+  beforeRouteLeave(to, from, next) {
+    if (localStorage.currentorderstatus == "1") {
+      if (!window.confirm("Closing this page will cancel your order. Are you sure?")) {
+        return;
+      }
+    }
+    next();
+  }
+
+
 
 };
 </script>
