@@ -4,6 +4,7 @@
     <br>
     <br>
     <HelloWorld msg="DISTRICT CHUCKLES" />
+    <img alt="Vue logo" src="../assets/logo.png">
     <br>
 
     <h3>Laughter is a healing medicine! <br>Good vibes on demand, brighten your day as easy as ordering an Uber :)</h3>
