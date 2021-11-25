@@ -5,7 +5,7 @@
 <br>   
 <br>
 
-<img src="../assets/dalai.jpeg" width="350" height="250">
+<img src="../assets/logo.png" width="300" height="200">
 <br>
 <br>
     <h1>Choose your type of joke!</h1>
@@ -235,7 +235,7 @@ export default {
      addLocation3 (named, title3, location) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
-    const number = this.$auth.user.name;
+    const number = this.$auth.user.name;  
     const status = "Pending";
       db.collection('orders').doc(vueid).set({ named, title3, time, location, number, status})
     },
