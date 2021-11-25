@@ -212,22 +212,22 @@ export default {
       localStorage.setItem('currentorderstatus', currentorderstatus)
     },
     addLocation (named, title, location) {      // <-- and here 
-    const time = Date();
+    const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
       db.collection('orders').doc(vueid).set({ named, title, time, location})
     },
      addLocation1 (named, title1, location) {      // <-- and here 
-    const time = Date();
+    const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
       db.collection('orders').doc(vueid).set({ named, title1, time, location})
     },
      addLocation2 (named, title2, location) {      // <-- and here 
-    const time = Date();
+    const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
       db.collection('orders').doc(vueid).set({ named, title2, time, location})
     },
      addLocation3 (named, title3, location) {      // <-- and here 
-    const time = Date();
+    const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
       db.collection('orders').doc(vueid).set({ named, title3, time, location})
     },
