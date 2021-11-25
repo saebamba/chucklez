@@ -214,26 +214,30 @@ export default {
     addLocation (named, title, location) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
+    const status = "Pending";
     const number = this.$auth.user.name;
-      db.collection('orders').doc(vueid).set({ named, title, time, location, number})
+      db.collection('orders').doc(vueid).set({ named, title, time, location, number, status})
     },
      addLocation1 (named, title1, location) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
     const number = this.$auth.user.name;
-      db.collection('orders').doc(vueid).set({ named, title1, time, location, number})
+    const status = "Pending";
+      db.collection('orders').doc(vueid).set({ named, title1, time, location, number, status})
     },
      addLocation2 (named, title2, location) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
     const number = this.$auth.user.name;
-      db.collection('orders').doc(vueid).set({ named, title2, time, location, number})
+    const status = "Pending";
+      db.collection('orders').doc(vueid).set({ named, title2, time, location, number, status})
     },
      addLocation3 (named, title3, location) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
     const number = this.$auth.user.name;
-      db.collection('orders').doc(vueid).set({ named, title3, time, location, number})
+    const status = "Pending";
+      db.collection('orders').doc(vueid).set({ named, title3, time, location, number, status})
     },
    
   },
