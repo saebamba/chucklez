@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld msg="DISTRICT CHUCKLES" />
+    <h1>DISTRICT CHUCKLES<h1/>
     <img alt="Vue logo" src="../assets/logo.png" width="300" height="200">
     <br>
 <br>
