@@ -69,13 +69,13 @@ beforeMount() {
     
     preventNav(event) {
           
-      if (!localStorage.currentorderstatus) return
+      if (!localStorage.currentorderstatus == "1") return
       event.preventDefault()
       event.returnValue = ""
     }
   },
   beforeRouteLeave(to, from, next) {
-    if (localStorage.currentorderstatus) {
+    if (localStorage.currentorderstatus == "1") {
       if (!window.confirm("Closing this page will cancel your order. Are you sure?")) {
         return;
       }
