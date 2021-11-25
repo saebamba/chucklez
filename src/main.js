@@ -62,7 +62,7 @@ router.beforeEach((to, from ) => {
   if (localStorage.currentorderstatus == "1") {
     router.push('/delivery');
   }
-
+  next;
 });
 
 
