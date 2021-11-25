@@ -27,14 +27,14 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+
   import {AtomSpinner} from 'epic-spinners';
 import 'epic-spinners/dist/lib/epic-spinners.min.css'
 
 export default {
   name: "home",
   components: {
-    HelloWorld,
+    
     AtomSpinner
   },
   methods: {
