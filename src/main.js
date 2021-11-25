@@ -56,7 +56,7 @@ import { firestorePlugin } from 'vuefire'
 Vue.use(firestorePlugin);
 
 
-router.beforeEach((to, from ) => {
+router.beforeEach((to, from, next ) => {
   console.log(to);
   console.log(from);
   if (localStorage.currentorderstatus == "1") {
