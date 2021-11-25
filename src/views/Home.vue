@@ -12,7 +12,7 @@
 <atom-spinner 
   :animation-duration="1000"
   :size="60"
-  color="#fff"
+  color="#8B0000"
 />
 </div>
 <br>
