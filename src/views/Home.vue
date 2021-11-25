@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>DISTRICT CHUCKLES<h1/>
+    <HelloWorld msg="DISTRICT CHUCKLES" />
     <img alt="Vue logo" src="../assets/logo.png" width="300" height="200">
     <br>
 <br>
@@ -27,14 +27,14 @@
 
 <script>
 // @ is an alias to /src
-
+import HelloWorld from "@/components/HelloWorld.vue";
   import {AtomSpinner} from 'epic-spinners';
 import 'epic-spinners/dist/lib/epic-spinners.min.css'
 
 export default {
   name: "home",
   components: {
-    
+    HelloWorld,
     AtomSpinner
   },
   methods: {
