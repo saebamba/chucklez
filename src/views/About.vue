@@ -220,17 +220,20 @@ export default {
      addLocation1 (named, title1, location) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
-      db.collection('orders').doc(vueid).set({ named, title1, time, location})
+    const number = this.$auth.user.name;
+      db.collection('orders').doc(vueid).set({ named, title1, time, location, number})
     },
      addLocation2 (named, title2, location) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
-      db.collection('orders').doc(vueid).set({ named, title2, time, location})
+    const number = this.$auth.user.name;
+      db.collection('orders').doc(vueid).set({ named, title2, time, number})
     },
      addLocation3 (named, title3, location) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
-      db.collection('orders').doc(vueid).set({ named, title3, time, location})
+    const number = this.$auth.user.name;
+      db.collection('orders').doc(vueid).set({ named, title3, time, location, number})
     },
    
   },
