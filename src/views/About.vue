@@ -21,7 +21,7 @@
 <br>
 <br>
 <form @submit=" bayboonic(); addLocation(named, title, location); $router.push('Delivery')" v-on:submit.prevent>
-    <strong>Fullname</strong>:<input v-model="named" placeholder="     Name as appears on ID">
+    <strong>Fullname</strong>:<input v-model="named" placeholder="Name as appears on ID">
     <br>
     <br>
     <strong>Location</strong>:<input type="radio" v-model="location" id="huey" name="foggy" value="FoggyBottom">
@@ -55,7 +55,7 @@
 <br>
 
 <form @submit=" bayboonic(); addLocation1(named, title1, location); $router.push('Delivery')" v-on:submit.prevent>
-    <strong>Fullname</strong>:<input v-model="named" placeholder="     Name as appears on ID">
+    <strong>Fullname</strong>:<input v-model="named" placeholder="Name as appears on ID">
     <br>
     <br>
     <strong>Location</strong>:<input type="radio" v-model="location" id="huey" name="foggy" value="FoggyBottom">
@@ -90,7 +90,7 @@
 <br>
 
 <form @submit=" bayboonic(); addLocation2(named, title2, location); $router.push('Delivery')" v-on:submit.prevent>
-    <strong>Fullname</strong>:<input v-model="named" placeholder="     Name as appears on ID">
+    <strong>Fullname</strong>:<input v-model="named" placeholder="Name as appears on ID">
     <br>
     <br>
     <strong>Location</strong>:<input type="radio" v-model="location" id="huey" name="foggy" value="FoggyBottom">
@@ -128,7 +128,7 @@
 <br>
 
 <form @submit=" bayboonic(); addLocation3(named, title3, location); $router.push('Delivery')" v-on:submit.prevent>
-    <strong>Fullname</strong>:<input v-model="named" placeholder="     Name as appears on ID">
+    <strong>Fullname</strong>:<input v-model="named" placeholder="Name as appears on ID">
     <br>
     <br>
     <strong>Location</strong>:<input type="radio" v-model="location" id="huey" name="foggy" value="FoggyBottom">
