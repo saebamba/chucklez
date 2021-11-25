@@ -8,7 +8,7 @@
 
 <br>
 <div align=middle>
-<atom-spinner 
+<fulfilling-square-spinner 
   :animation-duration="1000"
   :size="60"
   color="#8B0000"
@@ -28,14 +28,14 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
-  import {AtomSpinner} from 'epic-spinners';
+  import {FulfillingSquareSpinner} from 'epic-spinners';
 import 'epic-spinners/dist/lib/epic-spinners.min.css'
 
 export default {
   name: "home",
   components: {
     HelloWorld,
-    AtomSpinner
+    FulfillingSquareSpinner
   },
   methods: {
     // Log the user in
