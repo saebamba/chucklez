@@ -214,7 +214,8 @@ export default {
     addLocation (named, title, location) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
-      db.collection('orders').doc(vueid).set({ named, title, time, location})
+    const number = $auth.user.name;
+      db.collection('orders').doc(vueid).set({ named, title, time, location, number})
     },
      addLocation1 (named, title1, location) {      // <-- and here 
     const time = Date().toLocaleString();
