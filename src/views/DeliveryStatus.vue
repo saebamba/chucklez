@@ -1,5 +1,5 @@
 <template>
-  <h1> Your Order has been made!
+  <h1> Your Order has been made!<h4>Unless you came to this page directly without making an order</h4>
       <br>
 <br>
 <br>
