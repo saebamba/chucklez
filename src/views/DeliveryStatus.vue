@@ -3,7 +3,7 @@
       <br>
       <br>
 <div align=middle>
-     <fingerprint-spinner
+     <fulfilling-square-spinner
   :animation-duration="2000"
   :size="80"
   color="#000000"
@@ -31,13 +31,13 @@ You will receive order and location details texted to the number you used to log
 </template>
 
 <script>
-  import {FingerprintSpinner } from 'epic-spinners';
+  import {FulfillingSquareSpinner } from 'epic-spinners';
 import 'epic-spinners/dist/lib/epic-spinners.min.css'
 
 export default {
   name: "Delivery",
   components: {
-    FingerprintSpinner
+    FulfillingSquareSpinner
   },
   data() {
     return {

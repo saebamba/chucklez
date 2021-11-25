@@ -7,13 +7,7 @@
     <h3>Laughter is a healing medicine! <br>Good vibes on demand, brighten your day as easy as ordering an Uber :)</h3>
 
 <br>
-<div align=middle>
-<fulfilling-square-spinner 
-  :animation-duration="1000"
-  :size="60"
-  color="#8B0000"
-/>
-</div>
+
 <br>
 
      <div v-if="!$auth.loading">
@@ -28,14 +22,13 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
-  import {FulfillingSquareSpinner} from 'epic-spinners';
 import 'epic-spinners/dist/lib/epic-spinners.min.css'
 
 export default {
   name: "home",
   components: {
     HelloWorld,
-    FulfillingSquareSpinner
+
   },
   methods: {
     // Log the user in
