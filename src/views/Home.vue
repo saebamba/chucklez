@@ -3,7 +3,9 @@
     <br>
 <br>   
 <br>
-
+<br>
+<br>
+<br>
 <img src="../assets/logo.png" width="700" height="500">
   
     <h3>Laughter is a healing medicine! <br>Good vibes on demand, brighten your day as easy as ordering an Uber :)</h3>
