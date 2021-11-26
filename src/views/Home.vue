@@ -14,7 +14,7 @@
     <h3>Laughter is a healing medicine! <br>Good vibes on demand, brighten your day as easy as ordering an Uber :)</h3>
 
 <br>
-<br>
+
 <br>
 
      <div v-if="!$auth.loading">
