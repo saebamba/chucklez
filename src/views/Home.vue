@@ -7,7 +7,7 @@
 <br>
 <br>
 <div>
-<img src="../assets/logo.png" class="image-fit" width="700" height="250">
+<img src="../assets/logo.png" class="image-fit" width="350" height="125">
 </div>
     <h3>Laughter is a healing medicine! <br>Good vibes on demand, brighten your day as easy as ordering an Uber :)</h3>
 
