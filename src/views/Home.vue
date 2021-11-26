@@ -29,7 +29,7 @@ import 'epic-spinners/dist/lib/epic-spinners.min.css'
 export default {
   name: "home",
   components: {
-    HelloWorld,
+    
 
   },
   methods: {
