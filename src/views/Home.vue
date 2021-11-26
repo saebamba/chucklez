@@ -4,9 +4,8 @@
 <br>   
 <br>
 
-<img src="../assets/logo.png" width="350" height="250">
-    <HelloWorld msg="DISTRICT CHUCKLES" />
-
+<img src="../assets/logo.png" width="700" height="500">
+  
     <h3>Laughter is a healing medicine! <br>Good vibes on demand, brighten your day as easy as ordering an Uber :)</h3>
 
 <br>
