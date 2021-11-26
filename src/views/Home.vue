@@ -4,7 +4,7 @@
 <br>   
 <br>
 
-<img src="../assets/logo.png">
+<img src="../assets/logo.png" width="600" height="200">
     <HelloWorld msg="DISTRICT CHUCKLES" />
 
     <h3>Laughter is a healing medicine! <br>Good vibes on demand, brighten your day as easy as ordering an Uber :)</h3>
