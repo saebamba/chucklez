@@ -45,7 +45,7 @@ Vue.use(Auth0Plugin, {
     router.push(
       appState && appState.targetUrl
         ? appState.targetUrl
-        : window.location.href = 'https://determined-swanson-6dab1a.netlify.app/about'
+        : window.location.href = 'https://districtchuckles.com/about'
     );
   }
 });
