@@ -9,7 +9,14 @@
         <router-view/>
       </transition>
     </main>
+    <footer>
+  asd. <strong>test</strong>
+ 
+    </footer>
   </div>
+
+
+
 </template>
 
 <style>
@@ -45,5 +52,12 @@
 
 #nav a.router-link-exact-active {
   color: #640505;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 </style>
