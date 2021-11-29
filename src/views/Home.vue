@@ -9,7 +9,7 @@
 <br>
 <br>
 </div>
-    <h3>Laughter is a healing medicine! <br>Good vibes on demand, brighten your day as easy as ordering an Uber :)</h3>
+    <h3>Laughter is a healing medicine!</h3>
 
 <br>
 
@@ -57,5 +57,7 @@ h3 {
 
 font-size:20px
 }
+font-family: apertura, sans-serif;
+
 
 </style>
