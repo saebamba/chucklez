@@ -4,7 +4,7 @@
      <div align="middle">
       <img src="@/assets/logo.png" class="image-fit" width="300" height="200">
     </div>
-    </div>
+  
      <main class="App__main">
       <transition
         name="fade"
