@@ -2,7 +2,7 @@
   <div id="app">
    <div id="nav">
      <div align="middle">
-      <img src="/assets/logo.png" class="image-fit" width="200" height="100">
+      <img src="assets/logo.png" class="image-fit" width="200" height="100">
     </div>
     </div>
      <main class="App__main">
@@ -13,12 +13,12 @@
         <router-view/>
       </transition>
     </main>
-    <div align="middle">
+ 
     <footer>
   Confused? <strong>Get assistance.</strong>
  
     </footer>
-    </div>
+   
   </div>
 
 
@@ -66,6 +66,8 @@ footer {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
    position:fixed;
+     margin: auto;
+
  bottom:0;
 }
 </style>
