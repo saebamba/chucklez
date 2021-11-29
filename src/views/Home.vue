@@ -2,8 +2,6 @@
   <div class="home">
     <br>
 <br>   
-<br>
-<br>
 
 <div>
  <br>
