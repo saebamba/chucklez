@@ -16,7 +16,7 @@
     </main>
  
     <footer>
-  Confused? <strong>Get assistance.</strong>
+  Need help? <strong>Get assistance.</strong>
  
     </footer>
    
