@@ -2,7 +2,7 @@
   <div id="app">
    <div id="nav">
      <div align="middle">
-      <img src="../assets/logo.png" class="image-fit" width="200" height="100">
+      <img src="/assets/logo.png" class="image-fit" width="200" height="100">
     </div>
     </div>
      <main class="App__main">
