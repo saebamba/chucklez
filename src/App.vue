@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-   
+   <div id="nav">
+     <div align="middle">
+      <img src="../assets/logo.png" class="image-fit" width="200" height="100">
+    </div>
+    </div>
      <main class="App__main">
       <transition
         name="fade"
@@ -9,7 +13,7 @@
         <router-view/>
       </transition>
     </main>
-    <div align=middle>
+    <div align="middle">
     <footer>
   Confused? <strong>Get assistance.</strong>
  
