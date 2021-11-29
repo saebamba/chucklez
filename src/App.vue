@@ -1,10 +1,8 @@
 <template>
   <div id="app">
    <div id="nav">
-     <div align="middle">
-      <img src="@/assets/logo.png" class="image-fit" width="300" height="200">
+      <img src="@/assets/logo.png" class="image-fit" width="300" height="200"> 
     </div>
-  
      <main class="App__main">
       <transition
         name="fade"
@@ -15,10 +13,9 @@
       
     </main>
     <div id="footer">
-     <div align="middle">
       Need help? <strong>Get assistance.</strong>
     </div>
-    </div>
+
   </div>
 
 
