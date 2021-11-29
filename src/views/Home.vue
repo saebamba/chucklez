@@ -4,10 +4,8 @@
 <br>   
 <br>
 <br>
-<br>
-<br>
 <div>
-<img src="../assets/logo.png" class="image-fit" width="350" height="125">
+<img src="../assets/logo.png" class="image-fit" width="500" height="250">
 <br>
 <br>
 </div>
@@ -51,3 +49,13 @@ export default {
   }
 };
 </script>
+
+
+<style scoped>
+
+h3 {
+
+font-size:20px
+}
+
+</style>
