@@ -55,9 +55,11 @@ export default {
 
 h3 {
 
-font-size:20px
-}
+font-size:20px;
+
 font-family: apertura, sans-serif;
 
+color: #640505;
 
+}
 </style>
