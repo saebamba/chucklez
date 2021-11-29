@@ -9,10 +9,12 @@
         <router-view/>
       </transition>
     </main>
+    <div align=middle>
     <footer>
   Confused? <strong>Get assistance.</strong>
  
     </footer>
+    </div>
   </div>
 
 
