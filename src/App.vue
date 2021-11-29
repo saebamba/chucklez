@@ -10,7 +10,7 @@
       </transition>
     </main>
     <footer>
-  asd. <strong>test</strong>
+  Confused? <strong>Get assistance.</strong>
  
     </footer>
   </div>
@@ -59,5 +59,7 @@ footer {
   padding: 3px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
+   position:fixed;
+ bottom:0;
 }
 </style>
