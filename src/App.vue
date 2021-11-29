@@ -65,7 +65,7 @@
   padding: 25px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-   position: absolute;
+   
   bottom: 0px;
 }
 </style>
