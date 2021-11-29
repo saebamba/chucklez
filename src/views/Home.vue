@@ -9,9 +9,6 @@
 <br>
 <br>
 </div>
-    <h3>Laughter is a healing medicine!</h3>
-
-<br>
 
 <br>
 
