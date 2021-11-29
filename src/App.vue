@@ -2,7 +2,7 @@
   <div id="app">
    <div id="nav">
      <div align="middle">
-      <img src="@/assets/logo.png" class="image-fit" width="400" height="200">
+      <img src="@/assets/logo.png" class="image-fit" width="300" height="200">
     </div>
     </div>
      <main class="App__main">
@@ -14,13 +14,13 @@
       </transition>
       
     </main>
- 
-    <footer>
-  Need help? <strong>Get assistance.</strong>
- 
-    </footer>
-   
+    <div id="footer">
+     <div align="middle">
+      Need help? <strong>Get assistance.</strong>
+    </div>
+    </div>
   </div>
+
 
 
 
@@ -63,15 +63,10 @@
   color: #640505;
 }
 
-footer {
+#footer {
   text-align: center;
   padding: 25px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-   position:fixed;
-display: flex; 
-  align-items: center; 
-
- bottom:0;
 }
 </style>
