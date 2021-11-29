@@ -56,7 +56,7 @@ export default {
 
 h3 {
 
-font-size:40px;
+font-size:20px;
   font-family: 'Courier New', Courier, monospace;
 
 color:black;
