@@ -4,6 +4,8 @@
 <br>   
 <br>
 <br>
+<br>
+<br>
 <div>
 <img src="../assets/logo.png" class="image-fit" width="400" height="200">
 <br>
@@ -14,9 +16,9 @@
 
      <div v-if="!$auth.loading">
       <!-- show login when not authenticated -->
-      <button class="btn default" v-if="!$auth.isAuthenticated" @click="login">Order your first joke!</button>
+      <button class="btn danger" v-if="!$auth.isAuthenticated" @click="login">Order your first joke!</button>
       <!-- show logout when authenticated -->
-      <button class="btn default" v-if="$auth.isAuthenticated" @click="logout">Order your first joke!</button>
+      <button class="btn danger" v-if="$auth.isAuthenticated" @click="logout">Order your first joke!</button>
     </div>
   </div>
 </template>
