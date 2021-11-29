@@ -19,9 +19,9 @@
 
      <div v-if="!$auth.loading">
       <!-- show login when not authenticated -->
-      <button class="btn danger" v-if="!$auth.isAuthenticated" @click="login">Order your first joke!</button>
+      <button class="btn" v-if="!$auth.isAuthenticated" @click="login"><strong>Order your first joke!</strong></button>
       <!-- show logout when authenticated -->
-      <button class="btn danger" v-if="$auth.isAuthenticated" @click="logout">Order your first joke!</button>
+      <button class="btn" v-if="$auth.isAuthenticated" @click="logout"><strong>Order your first joke!</strong></button>
     </div>
   </div>
 </template>
@@ -60,7 +60,7 @@ h3 {
 font-size:40px;
   font-family: 'Courier New', Courier, monospace;
 
-color:red;
+color:black;
 
 }
 </style>

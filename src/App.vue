@@ -62,11 +62,12 @@
 
 footer {
   text-align: center;
-  padding: 15px;
+  padding: 25px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
    position:fixed;
-     margin: auto;
+    text-align: center;
+
 
  bottom:0;
 }
