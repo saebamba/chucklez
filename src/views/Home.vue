@@ -2,23 +2,24 @@
   <div class="home">
     <br>
 <br>   
-
+<br>
+<br>
 <div>
- <br>
-
-    <h3>Laughter is a healing medicine! <br>Good vibes on demand, brighten your day as easy as ordering an Uber :)</h3>
-
+<img src="../assets/logo.png" class="image-fit" width="400" height="200">
 <br>
 <br>
 </div>
+    <h3>Laughter is a healing medicine! <br>Good vibes on demand, brighten your day as easy as ordering an Uber :)</h3>
+
+<br>
 
 <br>
 
      <div v-if="!$auth.loading">
       <!-- show login when not authenticated -->
-      <button class="btn" v-if="!$auth.isAuthenticated" @click="login"><strong>Order your first joke!</strong></button>
+      <button class="btn default" v-if="!$auth.isAuthenticated" @click="login">Order your first joke!</button>
       <!-- show logout when authenticated -->
-      <button class="btn" v-if="$auth.isAuthenticated" @click="logout"><strong>Order your first joke!</strong></button>
+      <button class="btn default" v-if="$auth.isAuthenticated" @click="logout">Order your first joke!</button>
     </div>
   </div>
 </template>
@@ -54,10 +55,7 @@ export default {
 
 h3 {
 
-font-size:20px;
-  font-family: 'Courier New', Courier, monospace;
-
-color:black;
-
+font-size:20px
 }
+
 </style>
