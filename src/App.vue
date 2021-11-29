@@ -69,7 +69,8 @@ footer {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
    position:fixed;
-
+display: flex; 
+  align-items: center; 
 
  bottom:0;
 }
