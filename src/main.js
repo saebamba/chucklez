@@ -74,7 +74,7 @@ Vue.use(Auth0Plugin, {
     router.push(
       appState && appState.targetUrl
         ? appState.targetUrl
-        : window.location.href = 'https://districtchuckles.com/about'
+        : window.location.href = 'https://districtchuckles.com/order'
     );
   }
 });

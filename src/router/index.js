@@ -26,7 +26,7 @@ const routes = [
     beforeEnter: authGuard
   },
   {
-    path: "/about",
+    path: "/order",
     name: "About",
     beforeEnter: authGuard,
     // route level code-splitting
