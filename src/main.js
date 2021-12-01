@@ -16,11 +16,40 @@ Vue.prototype.$firebase = firebase;
 
 export const db = firebase.firestore()
 
-db.collection('orders').get().then(r => {
-  r.docs.map(doc => {
-    console.log(doc.data());
-  });
- })
+
+const apple = db.collection('orders').where("cso", "==", "1").get();
+
+
+console.log(apple);
+
+
+
+
+import { doc, getDoc } from "firebase/firestore";
+
+
+async function potato() {
+
+const q = localStorage.bayboon;
+const docRef = doc(db, 'orders', q);
+const docSnap = await getDoc(docRef);
+
+if (docSnap.exists()) {
+  
+  router.push('Delivery');
+} else {
+  // doc.data() will be undefined in this case
+  localStorage.setItem('bayboon', "banana");
+}
+
+}
+potato();
+
+ 
+
+
+
+
 
 
 

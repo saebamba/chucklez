@@ -80,7 +80,19 @@ beforeMount() {
       }
     }
     next();
-  }
+  },
+  beforeRouteEnter(to, from, next) {
+  
+    if (localStorage.bayboon == "banana") {
+  
+  this.$router.push('About');
+} else {
+  // doc.data() will be undefined in this case
+  next();
+}
+
+
+  },
 
 
 
