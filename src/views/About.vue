@@ -5,7 +5,7 @@
 <br>   
 <br>
 
-<img src="../assets/logo23.png" width="300" height="200">
+<img src="../assets/logo23.png" width="400" height="250">
 <br>
     <h1>Choose your type of joke!</h1>
     <br>
