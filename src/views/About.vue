@@ -31,6 +31,8 @@
   <input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
   <label for="huey">AdamsMorgan</label>
 
+  <h6>Your EXACT pickup location will be arranged via text.</h6>
+
 
    <br>
    <br>
@@ -64,6 +66,8 @@
   <label for="huey">FoggyBottom</label>
    <input v-model="location" type="radio" id="huey" name="foggy" value="Georgetown">
   <label for="huey">Georgetown</label>
+  <input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
+  <label for="huey">AdamsMorgan</label>
 
    <br>
    <br>
@@ -99,6 +103,8 @@
   <label for="huey">FoggyBottom</label>
    <input v-model="location" type="radio" id="huey" name="foggy" value="Georgetown">
   <label for="huey">Georgetown</label>
+  <input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
+  <label for="huey">AdamsMorgan</label>
    
 
    <br>
@@ -137,6 +143,8 @@
   <label for="huey">FoggyBottom</label>
    <input v-model="location" type="radio" id="huey" name="foggy" value="Georgetown">
   <label for="huey">Georgetown</label>
+  <input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
+  <label for="huey">AdamsMorgan</label>
     
 
    <br>
