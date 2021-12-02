@@ -29,7 +29,7 @@
 }
 
 #app {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Calibri, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

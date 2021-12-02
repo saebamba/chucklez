@@ -7,9 +7,8 @@
 <div>
 <img src="../assets/logo23.png" class="image-fit" width="400" height="200">
 <br>
-<br>
 </div>
-    <h3>Laughter is a healing medicine! <br>Good vibes on demand, brighten your day as easy as ordering an Uber :)</h3>
+    <h3>Laughter is a healing medicine! <br>Good vibes on demand, brighten your day as easy as ordering a Lyft :)</h3>
 
 <br>
 
@@ -55,7 +54,9 @@ export default {
 
 h3 {
 
-font-size:20px
+font-size:20px;
+color: black;
 }
+
 
 </style>

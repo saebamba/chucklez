@@ -5,18 +5,18 @@
 <br>   
 <br>
 
-<img src="../assets/logo.png" width="300" height="200">
+<img src="../assets/logo23.png" width="300" height="200">
 <br>
 <br>
     <h1>Choose your type of joke!</h1>
     <br>
     <br>
-<button  class="btn success" @click="showModal = true">Frolic 60$</button>
+<button  class="btn success" @click="showModal = true">Giggle 50$</button>
 <Popup v-if="showModal" @close="showModal = false">
   <div align=left>
 <button v-if="closetc" class="btn-small" @click="showModal = false">X</button>
 </div>
-<h2> Frolicing in the woods like a killer. <br>Cost of Joke: 60$ </h2>
+<h2>Cost of Joke: 50$ </h2>
 <br>
 <br>
 <br>
@@ -28,6 +28,8 @@
   <label for="huey">FoggyBottom</label>
    <input v-model="location" type="radio" id="huey" name="foggy" value="Georgetown">
   <label for="huey">Georgetown</label>
+  <input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
+  <label for="huey">AdamsMorgan</label>
 
 
    <br>
@@ -44,12 +46,12 @@
 </form>
  
  </Popup> 
-<button class="btn info" @click="showModal1 = true">Bufoonery 110$</button>
+<button class="btn info" @click="showModal1 = true">Chuckle 90$</button>
 <Popup v-if="showModal1" @close="showModal1 = false">
   <div align=left>
 <button v-if="closetc1" class="btn-small" @click="showModal1 = false">X</button>
 </div>
-<h2> Bufoonery in the woods like a killer. <br>Cost of Joke: 100$ </h2>
+<h2>Cost of Joke: 100$ </h2>
 <br>
 <br>
 <br>
@@ -78,13 +80,13 @@
  
  </Popup> 
 
-<button class="btn warning" @click="showModal2 = true">Whimsy 190$</button>
+<button class="btn warning" @click="showModal2 = true">Guffaw 160$</button>
 
 <Popup v-if="showModal2" @close="showModal2 = false">
   <div align=left>
 <button v-if="closetc2" class="btn-small" @click="showModal2 = false">X</button>
 </div>
-<h2> Whimsical in the woods like a killer. <br>Cost of Joke: 160$ </h2>
+<h2>Cost of Joke: 160$ </h2>
 <br>
 <br>
 <br>
@@ -116,13 +118,13 @@
  </Popup> 
 
 
-<button class="btn danger"  @click="showModal3 = true">Royale 250$</button>
+<button class="btn danger"  @click="showModal3 = true">Knee-Slapper 260$</button>
 
 <Popup v-if="showModal3" @close="showModal3 = false">
   <div align=left>
 <button v-if="closetc3" class="btn-small" @click="showModal3 = false">X</button>
 </div>
-<h2> Royale in the woods like a killer. <br>Cost of Joke: 250$ </h2>
+<h2>Cost of Joke: 260$ </h2>
 <br>
 <br>
 <br>
