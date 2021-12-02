@@ -5,7 +5,7 @@
 <br>
 <br>
 <div>
-<img src="../assets/logomain1.png" class="image-fit" width="400" height="200">
+<img src="../assets/logo23.png" class="image-fit" width="400" height="200">
 <br>
 <br>
 </div>
