@@ -53,8 +53,8 @@ export default {
 
 h3 {
 
-font-size:20px;
-color: black;
+font-size:30px;
+color: white;
 }
 
 
