@@ -7,7 +7,6 @@
 
 <img src="../assets/logo23.png" width="300" height="200">
 <br>
-<br>
     <h1>Choose your type of joke!</h1>
     <br>
     <br>
@@ -28,10 +27,11 @@
   <label for="huey">FoggyBottom</label>
    <input v-model="location" type="radio" id="huey" name="foggy" value="Georgetown">
   <label for="huey">Georgetown</label>
-  <input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
+  <br><input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
   <label for="huey">AdamsMorgan</label>
 
-  <h6>Your EXACT pickup location will be arranged via text.</h6>
+  <br>
+  <h6>(Your EXACT pickup location will be arranged via text.)</h6>
 
 
    <br>
@@ -66,7 +66,7 @@
   <label for="huey">FoggyBottom</label>
    <input v-model="location" type="radio" id="huey" name="foggy" value="Georgetown">
   <label for="huey">Georgetown</label>
-  <input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
+  <br><input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
   <label for="huey">AdamsMorgan</label>
 
    <br>
@@ -103,7 +103,7 @@
   <label for="huey">FoggyBottom</label>
    <input v-model="location" type="radio" id="huey" name="foggy" value="Georgetown">
   <label for="huey">Georgetown</label>
-  <input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
+  <br><input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
   <label for="huey">AdamsMorgan</label>
    
 
@@ -143,7 +143,7 @@
   <label for="huey">FoggyBottom</label>
    <input v-model="location" type="radio" id="huey" name="foggy" value="Georgetown">
   <label for="huey">Georgetown</label>
-  <input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
+  <br><input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
   <label for="huey">AdamsMorgan</label>
     
 
