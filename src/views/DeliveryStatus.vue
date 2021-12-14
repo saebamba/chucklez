@@ -99,6 +99,10 @@ beforeMount() {
 };
 </script>
 
-<style>
+<style scoped>
+h5 {
 
+
+color: white;
+}
 </style>
