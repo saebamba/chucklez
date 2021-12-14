@@ -11,6 +11,9 @@
         <router-view/>
       </transition>
     </main>
+    <footer>
+  <p>Questions? Text (409) 207-8989	for help. </p>
+</footer>
   </div>
 </template>
 
@@ -48,5 +51,16 @@
 
 #nav a.router-link-exact-active {
   color: #640505;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-size:16px;
+color: white;
+
+  
 }
 </style>

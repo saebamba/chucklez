@@ -4,15 +4,15 @@
     
 
 
-<h3>Get giggling. <br>As EASY as ordering a Lyft!</h3>
+<h3>Start chuckling.<br>As easy as calling a Lyft!</h3>
 
 <br>
 
      <div v-if="!$auth.loading">
       <!-- show login when not authenticated -->
-      <button class="btn salmon" v-if="!$auth.isAuthenticated" @click="login">Start Laughing!</button>
+      <button class="btn salmon" v-if="!$auth.isAuthenticated" @click="login">Login</button>
       <!-- show logout when authenticated -->
-      <button class="btn salmon" v-if="$auth.isAuthenticated" @click="logout">Start Laughing!</button>
+      <button class="btn salmon" v-if="$auth.isAuthenticated" @click="logout">Login</button>
     </div>
   </div>
   </div>
