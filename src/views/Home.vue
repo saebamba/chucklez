@@ -6,7 +6,7 @@
 <br>
 <h3>Start chuckling.<br>As easy as calling a Lyft!</h3>
 
-<br>
+
 
      <div v-if="!$auth.loading">
       <!-- show login when not authenticated -->
