@@ -4,7 +4,7 @@
     
 
 
-<h3>Laughter is a healing medicine. <br>As EASY as ordering a Lyft!</h3>
+<h3>Get giggling. <br>As EASY as ordering a Lyft!</h3>
 
 <br>
 
