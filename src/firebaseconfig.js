@@ -1,9 +1,9 @@
 export const firebaseConfig = {
-    apiKey: "AIzaSyDRF317pgzW3BP0vZO2u_XfZ_Bk9ctdius",
-    authDomain: "dischuckles.firebaseapp.com",
-    projectId: "dischuckles",
-    storageBucket: "dischuckles.appspot.com",
-    messagingSenderId: "211182662058",
-    appId: "1:211182662058:web:5441139df869c01840fbd3"
+  apiKey: "AIzaSyCP1rGsmMSFVyhREl-VFQdZPmi47rUqYho",
+  authDomain: "dischucks2.firebaseapp.com",
+  projectId: "dischucks2",
+  storageBucket: "dischucks2.appspot.com",
+  messagingSenderId: "717062054304",
+  appId: "1:717062054304:web:387d2a76514b2212c1c4c5"
   };
 
