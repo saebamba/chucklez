@@ -49,7 +49,7 @@ export default {
 
 h3 {
 
-font-size:50px;
+font-size:45px;
 color: white;
 }
 
