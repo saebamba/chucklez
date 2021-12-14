@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    
+    <div id="nav">
+     <img src="@/assets/logo23.png" class="image-fit" width="300" height="100">
+    </div>
      <main class="App__main">
       <transition
         name="fade"
@@ -16,7 +18,7 @@
 
 .fade-enter-active,
 .fade-leave-active {
-  transition-duration: .55s;
+  transition-duration: 1.55s;
   transition-property: opacity;
   transition-timing-function: ease;
 }
@@ -36,6 +38,7 @@
 
 #nav {
   padding: 30px;
+  color: white;
 }
 
 #nav a {

@@ -1,22 +1,20 @@
 <template>
+<div class="box">
  <div class="home">
-    <br>
+    
 
-<div>
-<img src="../assets/logo23.png" class="image-fit" width="400" height="200">
-</div>
-    <h3>Laughter is a healing medicine! <br>Good vibes on demand, brighten your day as easy as ordering a Lyft :)</h3>
 
-<br>
+<h3>Laughter is a healing medicine. <br>As EASY as ordering a Lyft!</h3>
 
 <br>
 
      <div v-if="!$auth.loading">
       <!-- show login when not authenticated -->
-      <button class="btn default" v-if="!$auth.isAuthenticated" @click="login">Order your first joke!</button>
+      <button class="btn salmon" v-if="!$auth.isAuthenticated" @click="login">Start Laughing!</button>
       <!-- show logout when authenticated -->
-      <button class="btn default" v-if="$auth.isAuthenticated" @click="logout">Order your first joke!</button>
+      <button class="btn salmon" v-if="$auth.isAuthenticated" @click="logout">Start Laughing!</button>
     </div>
+  </div>
   </div>
 </template>
 
@@ -51,8 +49,18 @@ export default {
 
 h3 {
 
-font-size:30px;
+font-size:50px;
 color: white;
+}
+
+#box {
+
+margin:auto;
+margin-top:150px;
+width:1500px;
+height:500px;
+max-width: 100%;
+
 }
 
 

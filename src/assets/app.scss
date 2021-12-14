@@ -32,6 +32,31 @@ body{
     background-color: #04AA6D;
     color: white;
   }
+
+  /* Salmon */
+  .salmon {
+    border-color: white;
+    color:#f95252;
+    font-size: 40px;
+    font-weight: bold;
+
+  }
+  
+  .salmon:hover {
+    background-color: #f95252;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+
+  }
+
+  .salmon:focus {
+    background-color: #f95252;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+
+  }
   
   /* Blue */
   .info {
