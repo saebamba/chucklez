@@ -7,7 +7,7 @@
 <br>
 <br>
 <br>
-<h3>Start chuckling.<br>As easy as calling a Lyft!</h3>
+<h3>We are closed.<br>Text (409) 207-8989 for support.</h3>
 
 
 
