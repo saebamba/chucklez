@@ -6,7 +6,7 @@
      <fulfilling-square-spinner
   :animation-duration="2000"
   :size="80"
-  color="#000000"
+  color="#FFFFFF"
 />
 </div>
 
