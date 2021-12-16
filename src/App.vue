@@ -40,7 +40,7 @@
 }
 
 #nav {
-  padding: 10px;
+
   color: white;
 }
 
