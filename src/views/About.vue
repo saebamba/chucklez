@@ -205,6 +205,7 @@ export default {
      addLocation1 (named, title1) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
+    const location = localStorage.locato;
     const number = this.$auth.user.name;
     const status = "Pending";
       db.collection('orders').doc(vueid).set({ named, title1, time, location, number, status})
@@ -212,6 +213,7 @@ export default {
      addLocation2 (named, title2) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
+    const location = localStorage.locato;
     const number = this.$auth.user.name;
     const status = "Pending";
       db.collection('orders').doc(vueid).set({ named, title2, time, location, number, status})
@@ -219,6 +221,7 @@ export default {
      addLocation3 (named, title3) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
+    const location = localStorage.locato;
     const number = this.$auth.user.name;  
     const status = "Pending";
       db.collection('orders').doc(vueid).set({ named, title3, time, location, number, status})
