@@ -175,7 +175,7 @@ export default {
                 title3: 'Royale 250$',
                 
                 published: true,
-                location: localStorage.locato,
+                location: localStorage.getItem('locato'),
            
                 
 

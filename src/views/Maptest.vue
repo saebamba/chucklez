@@ -57,14 +57,13 @@ export default {
       const platoto = place.formatted_address;
       const plankoko = place.geometry.location.lat();
       const planwowo = place.geometry.location.lng();
-
-      let finalString = platoto.replace(/["]+/g, '')
-
+      
 
 
-      localStorage.setItem('locato', JSON.stringify(finalString));
+      localStorage.setItem('locato', JSON.stringify(platoto));
       localStorage.setItem('plankokolat', JSON.stringify(plankoko));
       localStorage.setItem('planwowolng', JSON.stringify(planwowo));
+      
 
     },
     addMarker() {
