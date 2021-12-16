@@ -194,28 +194,29 @@ export default {
       localStorage.setItem('bayboon', nibba)
       localStorage.setItem('currentorderstatus', currentorderstatus)
     },
-    addLocation (named, title, location) {      // <-- and here 
+    addLocation (named, title) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
+    const location = localStorage.locato;
     const status = "Pending";
     const number = this.$auth.user.name;
       db.collection('orders').doc(vueid).set({ named, title, time, location, number, status})
     },
-     addLocation1 (named, title1, location) {      // <-- and here 
+     addLocation1 (named, title1) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
     const number = this.$auth.user.name;
     const status = "Pending";
       db.collection('orders').doc(vueid).set({ named, title1, time, location, number, status})
     },
-     addLocation2 (named, title2, location) {      // <-- and here 
+     addLocation2 (named, title2) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
     const number = this.$auth.user.name;
     const status = "Pending";
       db.collection('orders').doc(vueid).set({ named, title2, time, location, number, status})
     },
-     addLocation3 (named, title3, location) {      // <-- and here 
+     addLocation3 (named, title3) {      // <-- and here 
     const time = Date().toLocaleString();
     const vueid = localStorage.bayboon;
     const number = this.$auth.user.name;  
