@@ -1,4 +1,5 @@
 import Vue from "vue";
+import * as VueGoogleMaps from 'vue2-google-maps'
 import App from "./App.vue";
 import "./registerServiceWorker";
 import router from "./router";
@@ -74,7 +75,7 @@ Vue.use(Auth0Plugin, {
     router.push(
       appState && appState.targetUrl
         ? appState.targetUrl
-        : window.location.href = 'https://districtchuckles.com/order'
+        : window.location.href = 'https://districtchuckles.com/maptest'
     );
   }
 });
@@ -87,6 +88,13 @@ Vue.use(firestorePlugin);
 
 
 Vue.config.productionTip = false;
+
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: 'AIzaSyB8RhcpLBWrRiMMBrHXcS5cAIqb9c6sK44',
+    libraries: 'places',
+  }
+});
 
 new Vue({
   router,

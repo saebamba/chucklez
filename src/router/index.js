@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import Maptest from "../views/Maptest.vue";
 
 import DeliveryStatus from "../views/DeliveryStatus.vue";
 import { authGuard } from "../auth/authGuard";
@@ -18,6 +19,11 @@ const routes = [
     name: "Delivery",
     component: DeliveryStatus,
     beforeEnter: authGuard
+  },
+  {
+    path: "/maptest",
+    name: "Maptest",
+    component: Maptest,
   },
   {
     path: "/order",

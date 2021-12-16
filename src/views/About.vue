@@ -16,19 +16,11 @@
 <br>
 <br>
 <br>
-<form @submit=" bayboonic(); addLocation(named, title, location); $router.push('Delivery')" v-on:submit.prevent>
+<form @submit=" bayboonic(); addLocation(named, title); $router.push('Delivery')" v-on:submit.prevent>
     <strong>Fullname</strong>:<input v-model="named" placeholder="Name as appears on ID">
     <br>
     <br>
-    <strong>Location</strong>:<input type="radio" v-model="location" id="huey" name="foggy" value="FoggyBottom">
-  <label for="huey">FoggyBottom</label>
-   <input v-model="location" type="radio" id="huey" name="foggy" value="Georgetown">
-  <label for="huey">Georgetown</label>
-  <br><input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
-  <label for="huey">AdamsMorgan</label>
-
-  <br>
-  <h6>(Your EXACT pickup location will be arranged via text.)</h6>
+    <strong>Location</strong>: {{location}}
 
 
    <br>
@@ -55,19 +47,11 @@
 <br>
 <br>
 
-<form @submit=" bayboonic(); addLocation1(named, title1, location); $router.push('Delivery')" v-on:submit.prevent>
+<form @submit=" bayboonic(); addLocation1(named, title1); $router.push('Delivery')" v-on:submit.prevent>
     <strong>Fullname</strong>:<input v-model="named" placeholder="Name as appears on ID">
     <br>
     <br>
-    <strong>Location</strong>:<input type="radio" v-model="location" id="huey" name="foggy" value="FoggyBottom">
-  <label for="huey">FoggyBottom</label>
-   <input v-model="location" type="radio" id="huey" name="foggy" value="Georgetown">
-  <label for="huey">Georgetown</label>
-  <br><input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
-  <label for="huey">AdamsMorgan</label>
-
-  <br>
-  <h6>(Your EXACT pickup location will be arranged via text.)</h6>
+    <strong>Location</strong>: {{location}}
 
    <br>
    <br>
@@ -95,19 +79,11 @@
 <br>
 <br>
 
-<form @submit=" bayboonic(); addLocation2(named, title2, location); $router.push('Delivery')" v-on:submit.prevent>
+<form @submit=" bayboonic(); addLocation2(named, title2); $router.push('Delivery')" v-on:submit.prevent>
     <strong>Fullname</strong>:<input v-model="named" placeholder="Name as appears on ID">
     <br>
     <br>
-    <strong>Location</strong>:<input type="radio" v-model="location" id="huey" name="foggy" value="FoggyBottom">
-  <label for="huey">FoggyBottom</label>
-   <input v-model="location" type="radio" id="huey" name="foggy" value="Georgetown">
-  <label for="huey">Georgetown</label>
-  <br><input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
-  <label for="huey">AdamsMorgan</label>
-   
-   <br>
-  <h6>(Your EXACT pickup location will be arranged via text.)</h6>
+    <strong>Location</strong>: {{location}}
 
    <br>
    <br>
@@ -137,19 +113,11 @@
 <br>
 <br>
 
-<form @submit=" bayboonic(); addLocation3(named, title3, location); $router.push('Delivery')" v-on:submit.prevent>
+<form @submit=" bayboonic(); addLocation3(named, title3); $router.push('Delivery')" v-on:submit.prevent>
     <strong>Fullname</strong>:<input v-model="named" placeholder="Name as appears on ID">
     <br>
     <br>
-    <strong>Location</strong>:<input type="radio" v-model="location" id="huey" name="foggy" value="FoggyBottom">
-  <label for="huey">FoggyBottom</label>
-   <input v-model="location" type="radio" id="huey" name="foggy" value="Georgetown">
-  <label for="huey">Georgetown</label>
-  <br><input type="radio" v-model="location" id="huey" name="adams" value="AdamsMorgan">
-  <label for="huey">AdamsMorgan</label>
-    
-    <br>
-  <h6>(Your EXACT pickup location will be arranged via text.)</h6>
+    <strong>Location</strong>: {{location}}
 
    <br>
    <br>
@@ -205,8 +173,9 @@ export default {
                 title1: 'Bufoonery 100$',
                 title2: 'Whimsy 150$',
                 title3: 'Royale 250$',
-                location: '',
+                
                 published: true,
+                location: localStorage.locato,
            
                 
 
