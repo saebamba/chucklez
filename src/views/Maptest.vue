@@ -1,14 +1,14 @@
 <template>
 <div class="container">
 
-<div style="z-index:100; position: fixed; left: 25px; bottom: 150px;background-color: #f95252;border-radius: 25px;padding: 5px;">
+<div style="z-index:100; position: fixed; left: 30px; bottom: 150px;background-color: #f95252;border-radius: 25px;padding: 7px;">
   
-  <h1 style="font-family: Calibri, sans-serif;color: white;"> ENTER YOUR LOCATION </h1>
+  <h3 style="font-family: Calibri, sans-serif;color: white; font-size:20px;"> ENTER PICKUP LOCATION </h3>
    <GmapAutocomplete
         @place_changed='setPlace'
       />
-      <br>
-       <button class="btn"
+      
+       <button class="btn danger"
         @click='addMarker'
       >
         GO
