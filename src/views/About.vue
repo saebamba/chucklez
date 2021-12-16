@@ -3,7 +3,10 @@
     
 <br>
 <br>   
-
+<div align="left">
+      <router-link to="Maptest" class="btn pegasus">Back</router-link>
+      </div>
+      <br>
     <h1>Choose your type of joke!</h1>
     <br>
     <br>

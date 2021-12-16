@@ -35,6 +35,27 @@ body{
     color: white;
   }
 
+  .pegasus {
+    border-color: white;
+    color: #04AA6D;
+    font-size: 12px;
+    padding: 5px ;
+  }
+  
+  .pegasus:hover {
+    background-color: white ;
+    color: #04AA6D;
+    font-size: 12px;
+    padding: 5px ;
+  }
+
+  .pegasus:focus {
+    background-color: white;
+    color: #04AA6D;
+    font-size: 12px;
+    padding: 5px ;
+  }
+
   /* Salmon */
   .salmon {
     border-color: white;
