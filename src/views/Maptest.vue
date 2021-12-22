@@ -3,7 +3,7 @@
 
 <div style="z-index:100; position: fixed; left: 30px; bottom: 150px;background-color: #f95252;border-radius: 25px;padding: 7px;">
   
-  <h3 style="font-family: Calibri, sans-serif;color: white; font-size:20px;"> ENTER PICKUP LOCATION </h3>
+  <h3 style="font-family: Calibri, sans-serif;color: white; font-size:20px;"> ENTER DELIVERY LOCATION </h3>
    <GmapAutocomplete
         @place_changed='setPlace'
       />
