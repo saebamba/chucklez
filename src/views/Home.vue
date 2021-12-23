@@ -4,11 +4,11 @@
     
 
 <br>
-<br>
+
 <img src="@/assets/logo23.png" class="image-fit" width="380" height="150">
 <br>
 <br>
-
+<br>
 <br>
 <h3>Start chuckling.<br>As easy as calling a Lyft!</h3>
      <br>
