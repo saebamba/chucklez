@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav" v-if="!['Maptest'].includes($route.name)">
-     <img src="@/assets/logo23.png" class="image-fit" width="300" height="100">
+     <img src="@/assets/logo234.png" class="image-fit" width="300" height="100">
     </div>
      <main class="App__main">
       <transition
