@@ -22,7 +22,7 @@
     <GmapMap
       :center='center'
       :zoom='13'
-      style='width:100%;  height: 720px;'
+      style='width:100%;  height: 820px;'
       >
   <GmapMarker
         :key="index"
