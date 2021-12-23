@@ -8,7 +8,8 @@
 <br>
 <br>
 <h3>Start chuckling.<br>As easy as calling a Lyft!</h3>
-
+     <img src="@/assets/logo23.png" class="image-fit" width="380" height="150">
+<br>
 
 
      <div v-if="!$auth.loading">
@@ -54,6 +55,8 @@ h3 {
 
 font-size:45px;
 color: white;
+padding: 0;
+margin: 0;
 }
 
 #box {
