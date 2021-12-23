@@ -3,7 +3,7 @@
 
 <div style="z-index:100; position: fixed; left: 30px; bottom: 150px;background-color: #f95252;border-radius: 25px;padding: 7px;">
   
-  <p style="font-family: Calibri, sans-serif;color: white; font-size:20px; font-strength:bold;"> ENTER DELIVERY LOCATION </p>
+  <h3 style="font-family: Calibri, sans-serif;color: white; font-size:20px;"> ENTER DELIVERY LOCATION </h3>
    <GmapAutocomplete
         @place_changed='setPlace'
       />
@@ -22,7 +22,7 @@
     <GmapMap
       :center='center'
       :zoom='13'
-      style='width:100%;  height: 1000px; position:absolute;'
+      style='width:100%;  height: 720px;'
       >
   <GmapMarker
         :key="index"
@@ -85,12 +85,13 @@ export default {
   },
 };
 
+window.scroll(0, document.documentElement.scrollHeight)
+
 
 
 </script>
 
 <style scoped>
-
 
 
 
