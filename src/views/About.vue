@@ -10,6 +10,10 @@
       <router-link to="Maptest" class="btn pegasus">Back</router-link>
       </div>
       <br>
+      <br>
+      <br>
+      <br>
+      <br>
     <h1>Choose your type of joke!</h1>
     <br>
     <br>
