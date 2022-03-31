@@ -75,7 +75,7 @@ Vue.use(Auth0Plugin, {
     router.push(
       appState && appState.targetUrl
         ? appState.targetUrl
-        : window.location.href = 'https://districtchuckles.com/maptest'
+        : window.location.href = 'https://storied-crumble-6363fd.netlify.app/maptest'
     );
   }
 });
