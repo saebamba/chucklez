@@ -11,7 +11,7 @@
 <br>
 <br>
 <br>
-<h3>Start chuckling.<br>As easy as calling a Lyft!</h3>
+<h3>Start chuckling now.<br>As easy as calling a Lyft!</h3>
      <br>
 <br>
 <br>
